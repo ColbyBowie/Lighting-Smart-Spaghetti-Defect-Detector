@@ -12,7 +12,7 @@ Tri-light training delivered steady performance around 65–70% across all light
 Synthetic shadow augmentation added only a small gain compared to using real multi-light data.
 
 ## Quickstart
-Dataset: download the open multi-lighting dataset on Roboflow Universe: https://universe.roboflow.com/colbys-workplace/3d-printing-different-lighting-eh5fr/dataset/3 and extract and rename folder to 'frames'
+Dataset: download the open multi-lighting dataset on Roboflow Universe in YOLOv9 format: https://universe.roboflow.com/colbys-workplace/3d-printing-different-lighting-eh5fr/dataset/3 and extract and rename folder to 'frames'
 
 Notebooks: use src/other/ seperate_files.ipynb and run cells in the same directory as 'frames' folder to seperate frames into correct folders. Then upload the 'Data_Frames.zip' to google drive
 
