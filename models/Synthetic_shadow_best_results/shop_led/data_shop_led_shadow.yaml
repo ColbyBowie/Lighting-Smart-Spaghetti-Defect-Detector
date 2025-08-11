@@ -1,0 +1,17 @@
+albumentations:
+- RandomShadow:
+    num_shadows_lower: 1
+    num_shadows_upper: 1
+    p: 0.3
+    shadow_dimension: 0.5
+    shadow_roi:
+    - 0
+    - 0
+    - 1
+    - 1
+names:
+- spaghetti
+nc: 1
+test: /content/Data_Frames/Best_case/shop_led/val/images
+train: /content/Data_Frames/Best_case/shop_led/train/images
+val: /content/Data_Frames/Best_case/shop_led/val/images
