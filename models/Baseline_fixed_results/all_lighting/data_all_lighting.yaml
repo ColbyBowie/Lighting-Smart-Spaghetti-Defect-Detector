@@ -1,0 +1,8 @@
+names:
+- spaghetti
+nc: 1
+test: /content/Data_Frames/Fixed_Num/all_lighting/val/images
+train: /content/Data_Frames/Fixed_Num/all_lighting/train/images
+val: /content/Data_Frames/Fixed_Num/all_lighting/val/images
+albumentations:
+  - RandomShadow: {p: 0.30, shadow_dimension: 0.5, num_shadows_lower: 1, num_shadows_upper: 1}
