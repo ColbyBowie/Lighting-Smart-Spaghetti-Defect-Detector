@@ -1,0 +1,6 @@
+names:
+- spaghetti
+nc: 1
+test: /content/Data_Frames/Testing/shop_test/images
+train: /content/Data_Frames/Fixed_Num/all_lighting/train/images
+val: /content/Data_Frames/Fixed_Num/all_lighting/val/images
