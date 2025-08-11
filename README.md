@@ -12,16 +12,20 @@ Tri-light training delivered steady performance around 65–70% across all light
 Synthetic shadow augmentation added only a small gain compared to using real multi-light data.
 
 ## Quickstart
-Dataset: download the open multi-lighting dataset on Roboflow Universe: https://universe.roboflow.com/colbys-workplace/3d-printing-different-lighting-eh5fr/dataset/3
+Dataset: download the open multi-lighting dataset on Roboflow Universe: https://universe.roboflow.com/colbys-workplace/3d-printing-different-lighting-eh5fr/dataset/3 and extract and rename folder to 'frames'
 
-Notebooks: use src/main/ in Google Colab. Set your dataset path and run cells in order. Experiments were run on a T4 GPU.
+Notebooks: use src/other/ seperate_files.ipynb and run cells in the same directory as 'frames' folder to seperate frames into correct folders. Then upload the 'Data_Frames.zip' to google drive
+
+    use src/main/ in Google Colab. Set your dataset path and run cells in order. Experiments were run on a T4 GPU.
 
 Trained models and logs: see models/ for four experiment groups (Baseline_fixed_results, Baseline_best_results, Synthetic_shadow_fixed_results, Synthetic_shadow_best_results) and results/ for the corresponding CSVs.
 
-Paper and poster: see documents/. STL files and the image data used in the study are in data/. Utility notebooks are in src/other/.
+Paper and poster: see documents/. 
+3mf files used in the study are in data/3D_Print_Files/.
+Utility notebooks are in src/other/.
 
 ## How to cite
-C. Bowie and J. Satel, “No More Midnight Filament Spaghetti: A Lighting-Smart Detector for 3D Printers,” University of Lethbridge, 2025. [Online]. Available: this repository.
+C. Bowie and J. Satel, “No More Midnight Filament Spaghetti: A Lighting-Smart Detector for 3D Printers,” University of Lethbridge, 2025. [Online]. Available: https://github.com/ColbyBowie/Lighting-Smart-Spaghetti-Defect-Detector
 
 ## License
 Code is released under the MIT License. See LICENSE for details.
