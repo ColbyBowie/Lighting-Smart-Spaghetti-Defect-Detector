@@ -16,7 +16,7 @@ Dataset: download the open multi-lighting dataset on Roboflow Universe: https://
 
 Notebooks: use src/other/ seperate_files.ipynb and run cells in the same directory as 'frames' folder to seperate frames into correct folders. Then upload the 'Data_Frames.zip' to google drive
 
-    use src/main/ in Google Colab. Set your dataset path and run cells in order. Experiments were run on a T4 GPU.
+use src/main/ in Google Colab. Set your dataset path and run cells in order. Experiments were run on a T4 GPU.
 
 Trained models and logs: see models/ for four experiment groups (Baseline_fixed_results, Baseline_best_results, Synthetic_shadow_fixed_results, Synthetic_shadow_best_results) and results/ for the corresponding CSVs.
 
